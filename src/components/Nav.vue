@@ -8,7 +8,7 @@
     <router-link to="/" v-if="!isLoggedIn"><i class="material-icons-outlined ">home</i><span class="nav-name">Home</span></router-link>
       <router-link to="/about"><i class="material-icons-outlined ">info</i><span class="nav-name">Info</span></router-link>
       <router-link to="/login" v-if="!isLoggedIn"><i class="material-icons-outlined">perm_identity</i><span class="nav-name">Login</span></router-link>
-      <router-link to="/document" v-if="isLoggedIn"><i class="material-icons-outlined">article</i><span class="nav-name">Document</span></router-link>
+      <router-link to="/message" v-if="isLoggedIn"><i class="material-icons-outlined">message</i><span class="nav-name">Message</span></router-link>
       <router-link to="/services"><i class="material-icons-outlined">adjust</i><span class="nav-name">Services</span></router-link>
     </ul>
   </aside>
