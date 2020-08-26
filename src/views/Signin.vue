@@ -19,7 +19,7 @@
           <input type="text" v-model="Password" placeholder="Password"/>
         </div>
         <div class="spc">
-          <span class="sp"> <a href="/signup">Create Account</a> </span>
+          <span class="sp"> <router-link to="/login">href="/signup">Create Account</router-link> </span>
           <span class="sp"> Forget password</span>
         </div>
 
